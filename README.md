@@ -24,6 +24,11 @@ it annoys me.
     $ cd [foo]
     $ rm README.md    # because it's annoying
 
+### Once in a while
+    
+    $ cd ~/.middleman/jon
+    $ git pull [--rebase]   # if you want
+
 ## Improvements
 
 * Make a branch for those who don't need the JS
