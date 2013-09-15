@@ -14,7 +14,13 @@
     = javascript_include_tag "vendor/custom.modernizr"
 
   %body
+    %header
+      %div
+
     = yield
+
+    %footer
+      %div
 
     - unless development?
       :javascript

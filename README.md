@@ -50,5 +50,6 @@ front-matter.
 
 * Make a branch for those who don't need the JS
 * Make Analytics adaptable?
+* Clean up CSS
 
 Corrections welcome. Enjoy!
