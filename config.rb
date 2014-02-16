@@ -4,7 +4,13 @@ set :images_dir, 'images'
 
 set :markdown_engine, :redcarpet
 
+set :debug_assets, true
+
 activate :livereload
+
+ready do
+  sprockets.append_path File.join root, 'bower_components'
+end
 
 # Build-specific configuration
 configure :build do
