@@ -1,6 +1,7 @@
 Middleman Template: Famous
 ==========================
-This is Middleman with Foundation 5, Haml and Sass; Middleman Famous.
+This is Middleman with Foundation 5, Haml, Sass and Bower; Middleman
+Famous.
 
 It's aim is to be minimal and provide quick scaffolding to web projects.
 It also uses some goodies like Livereload and a Google Analytics
@@ -14,6 +15,7 @@ You're all set!
 * Middleman 3.3
 * Foundation 5
 * HAML
+* Bower
 * Livereload
 * No content, just the frame
 * Google Analytics
@@ -45,6 +47,7 @@ front-matter.
     $ middleman init [foo] --template=famous
     $ cd [foo]
     $ rm README.md    # because it's annoying
+    $ bower install   # provided Bower is installed
 
 ### Upgrade once in a while
 
