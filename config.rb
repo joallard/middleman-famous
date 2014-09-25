@@ -10,6 +10,7 @@ activate :livereload
 
 ready do
   sprockets.append_path File.join root, 'bower_components'
+  sprockets.append_path File.join root, 'bower_components/foundation/scss'
 end
 
 # Build-specific configuration
