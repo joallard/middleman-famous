@@ -1,16 +1,21 @@
-Jon's Middleman Template
-========================
-This is Jon's Middleman template. It is Middleman bundled with
-Foundation4, using HAML. It also uses some goodies like Livereload 
-and a Google Analytics snippet.  There is no content by default. Because
-it annoys me.
+Middleman Template: Famous
+==========================
+This is Middleman with Foundation 5, Haml and Sass; Middleman Famous.
+
+It's aim is to be minimal and provide quick scaffolding to web projects.
+It also uses some goodies like Livereload and a Google Analytics
+snippet.
+
+There is no content by default, so you have no fluff to remove.
+
+You're all set!
 
 ## (The same, in readable) Bullet points!
-* Middleman
-* Foundation 4
+* Middleman 3.3
+* Foundation 5
 * HAML
 * Livereload
-* No content (annoying)
+* No content, just the frame
 * Google Analytics
 
 ## Goodies
@@ -25,7 +30,7 @@ how your crafted HAML views look.
 So for example, we can drop in `about.md` which will work as a
 stand-alone document and use `layout`; as well as have `home.html.haml`
 that will use `base` and configure rows in `home` rather than being in
-the layout. 
+the layout.
 
 For this to work, you only have to add `layout: base` in the
 front-matter.
@@ -33,20 +38,20 @@ front-matter.
 ## Usage
 ### Install
 
-    $ git clone git://github.com/joallard/middleman-jon ~/.middleman/jon
+    $ git clone git://github.com/joallard/middleman-famous ~/.middleman/famous
 
 ### Create
 
-    $ middleman init [foo] --template=jon
+    $ middleman init [foo] --template=famous
     $ cd [foo]
     $ rm README.md    # because it's annoying
 
-### Once in a while
-    
-    $ cd ~/.middleman/jon
-    $ git pull [--rebase]   # if you want
+### Upgrade once in a while
 
-## Improvements
+    $ cd ~/.middleman/famous
+    $ git pull [--rebase]   # rebase if you've made committed changes
+
+## To do
 
 * Make a branch for those who don't need the JS
 * Make Analytics adaptable?
