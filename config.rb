@@ -8,10 +8,7 @@ set :debug_assets, true
 
 activate :livereload
 
-ready do
-  sprockets.append_path File.join root, 'bower_components'
-  sprockets.append_path File.join root, 'bower_components/foundation/scss'
-end
+Sass.load_paths << "bower_components/foundation/scss"
 
 # Build-specific configuration
 configure :build do
